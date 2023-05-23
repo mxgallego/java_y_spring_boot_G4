@@ -1,0 +1,17 @@
+use jugos;
+UPDATE TBPRODUCTO SET PRODUCTO = '8128292', ENVASE = 'lata'
+WHERE volumen = '350 ml';
+
+UPDATE TBPRODUCTO SET PRECIO = 28.51 
+WHERE producto = '695594';
+
+UPDATE TBPRODUCTO SET sabor = 'Lima/limón', precio = 4.90
+WHERE producto = '1041119';
+
+select * from tbproducto;
+
+UPDATE TBVENDEDORES SET PORCENTAJE_COMISION = 0.11
+WHERE MATRICULA = '00236';
+
+UPDATE TBVENDEDORES SET NOMBRE = 'Joan Geraldo de la Fonseca Junior'
+WHERE MATRICULA = '00233';
